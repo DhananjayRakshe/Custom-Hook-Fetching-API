@@ -1,6 +1,8 @@
 .App {
   text-align: left;
-  padding: 50px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .App-logo {
@@ -36,4 +38,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.user{
+  height: 100vh;
+  overflow-y: scroll;
+  border: 1px solid #282c34;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.wine_image{
+  width: 100px;
+  height: 100px;
 }
